@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/popup"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:background="@color/gold">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Popup"
+        android:textColor="#000"
+        android:background="@color/grey"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="No Internet Connected"
+        android:layout_below="@+id/textView1" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:text="Close"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</RelativeLayout>

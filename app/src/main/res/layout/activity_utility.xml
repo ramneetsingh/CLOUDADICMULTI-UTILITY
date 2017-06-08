@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="horizontal"
+    android:id="@+id/util"
+    android:visibility="visible"
+    tools:context="com.example.ramne.cloudadicmulti_utility.UtilityActivity">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginRight="10dp"
+        android:background="@color/orange"
+        android:text="CAMERA" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/notification"
+        android:text="NOTIFICATION"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:background="@color/gold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/mydevice"
+        android:background="@color/grey"
+        android:text="MY DEVICE"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/green"
+            android:text="LOCATION" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/weather"
+            android:text="WEATHER"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/checkinternet"
+            android:text="CHECK INTERNET"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:background="@color/violet"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
